@@ -6,6 +6,16 @@ export const MainStyle = styled.main`
     gap: 1.5rem;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
+
+    img{
+        width: 70%;
+        align-items: center;
+    }
+
+    p{
+        align-items: center;
+    }
 `;
 
 export const StyledLogoMain = styled.div`

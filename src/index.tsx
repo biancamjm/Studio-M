@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import Main from "./Components/Main";
 
 
 
@@ -15,11 +16,12 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <BrowserRouter>
+      <Main></Main>
+        {/* <App /> */}
       {/* <AuthProvider>
     //         <UserProvider>
     //             <ProjectsProvider>
     //                 <React.StrictMode>
-                            // <App />
     //                 </React.StrictMode>
     //             </ProjectsProvider>
     //         </UserProvider>

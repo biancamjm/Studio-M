@@ -7,10 +7,11 @@ const Main = () => {
 
     return (
         <MainStyle>
-            <StyledLogoMain>
                 <img src={BgHome} alt=""/>
+            <StyledLogoMain>
                 <img src={LogoBgHome} alt="" />
             </StyledLogoMain>
+            <p>Seu bem estar e autoestima em um só lugar!</p>
         </MainStyle>
     )
 
